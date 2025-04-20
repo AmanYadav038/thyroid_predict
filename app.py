@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import joblib
+import json
 from routes.predict import predict_bp
 
 app = Flask(__name__)
@@ -10,7 +11,10 @@ selected_features = joblib.load("models/selected_features.pkl")
 
 @app.route("/")
 def home():
-    return render_template("index.html", features=selected_features)
+    with open('symptoms_config.json') as f:
+        symptoms_data = json.load(f)
+    sorted_symptoms = sorted(symptoms_data['symptoms'], key=lambda x: x['priority'])
+    return render_template("index.html", features=sorted_symptoms)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))

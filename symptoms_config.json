@@ -1,0 +1,142 @@
+{
+    "symptoms": [
+      {
+        "name": "Age",
+        "priority": 1,
+        "type": "number"
+      },
+      {
+        "name": "Gender",
+        "priority": 2,
+        "type": "radio",
+        "options": ["M", "F"]
+      },
+      {
+        "name": "Weight Gained",
+        "priority": 3,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Weight Loss",
+        "priority": 4,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Pregnant",
+        "priority": 5,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Irregular Periods",
+        "priority": 6,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Sensitivity to Cold/Heat",
+        "priority": 7,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Neck Swelling",
+        "priority": 8,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Dry Skin",
+        "priority": 9,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Puffy Face",
+        "priority": 10,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Poor Appetite",
+        "priority": 11,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Hoarse Voice",
+        "priority": 12,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Hair Loss",
+        "priority": 13,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Fatigue",
+        "priority": 14,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Memory Problem",
+        "priority": 15,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Family History",
+        "priority": 16,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Joint Pain",
+        "priority": 17,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Vegetarian Diet",
+        "priority": 18,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Ankle Instability",
+        "priority": 19,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Visual Disturbances",
+        "priority": 20,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Irritability",
+        "priority": 21,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Vertigo Sensation",
+        "priority": 22,
+        "type": "radio",
+        "options": ["yes", "no"]
+      },
+      {
+        "name": "Hands Numbness and Tingling",
+        "priority": 23,
+        "type": "radio",
+        "options": ["yes", "no"]
+      }
+    ]
+  }
+  
